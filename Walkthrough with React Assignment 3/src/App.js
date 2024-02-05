@@ -1,9 +1,10 @@
-import { HomePage } from "./Pages/HomePage"
-import { SinglePhoto } from "./Pages/SinglePhoto"
-import { CustomRoute } from "./routes/CustomRoute"
+import { CustomRoute } from "./Customroutes/CustomRoutes";
 
 
+function App() {
+  return (
+   <CustomRoute/>
+  );
+}
 
- const App = () => <CustomRoute/>
-
-export default App
+export default App;
